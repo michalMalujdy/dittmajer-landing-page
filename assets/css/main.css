@@ -2810,7 +2810,7 @@ input, select, textarea {
 			*/
 
 		margin-top: -260px;
-		padding: calc(460px + 6em) 0 10em 0;
+		padding: calc(460px + 6em) 0 2em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -3353,6 +3353,11 @@ input, select, textarea {
 	padding-bottom: 1rem;
 }
 
+.contact {
+	display: flex;
+	justify-content: space-between;
+}
+
 @media screen and (max-width: 1280px) {
 	.section-top {
 		padding-top: 4em;
@@ -3371,6 +3376,12 @@ input, select, textarea {
 	.review {
 		margin-bottom: 2.5rem;
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.contact {
+		flex-direction: column;
 	}
 }
 
