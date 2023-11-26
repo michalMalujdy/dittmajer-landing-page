@@ -3390,3 +3390,9 @@ input, select, textarea {
 		padding-top: 2em;
 	}
 }
+
+@media screen and (min-width: 736px) {
+	.feature .content {
+		padding: 0 2em 0 2em;
+	}
+}
