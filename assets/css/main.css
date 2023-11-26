@@ -3050,7 +3050,7 @@ input, select, textarea {
 				background-image: url("images/bottom-1600.svg");
 				background-size: 1600px 230px;
 				margin-top: -100px;
-				padding: calc(230px + 4em) 0 6em 0;
+				padding: calc(230px + 4em) 0 2em 0;
 			}
 
 				#footer:before {
@@ -3222,7 +3222,6 @@ input, select, textarea {
 			#main {
 				padding: 2em 0 2em 0;
 			}
-
 	}
 
 /* Mobile (Portrait) */
@@ -3328,4 +3327,55 @@ input, select, textarea {
 
 .custom-icon:hover {
 	background: rgba(224, 224, 224, 0.15);
+}
+
+.reviews {
+	display: flex;
+}
+
+.review {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	width: 33%;
+}
+
+.review-text {
+	font-size: 1rem;
+	font-style: italic;
+	text-align: justify;
+}
+
+.section-top {
+	padding-top: 6em;
+}
+
+.stars {
+	padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1280px) {
+	.section-top {
+		padding-top: 4em;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.reviews {
+		flex-direction: column;
+	}
+
+	p.review-text {
+		margin: 0;
+	}
+
+	.review {
+		margin-bottom: 2.5rem;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.section-top {
+		padding-top: 2em;
+	}
 }
