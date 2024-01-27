@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Michał Dittmajer | Remonty | Wykończenia | Instalacje</title>
+		<title>Michał Dittmajer | Wykończenia | Remonty | Instalacje</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -14,9 +14,8 @@
 	<body class="is-preload">
 		<!-- Header -->
 			<div id="header">
-<!--				<span class="logo icon">🛠️</span>-->
 				<h1>Michał Dittmajer</h1>
-				<p>Remonty | Wykończenia | Instalacje</p>
+				<p>Wykończenia | Remonty | Instalacje</p>
 				<div class="header-icons">
 					<div class="custom-icon"><a href="https://www.instagram.com/michaldittmajer/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></div>
 					<div><a href="https://www.instagram.com/michaldittmajer/">@michaldittmajer</a></div>
@@ -26,13 +25,8 @@
 
 		<!-- Main -->
 			<div id="main">
-
 				<header class="major container medium">
 					<h2>O nas</h2>
-					<!--
-					<p>Tellus erat mauris ipsum fermentum<br />
-					etiam vivamus nunc nibh morbi.</p>
-					-->
 				</header>
 
 				<div class="box alt container">
@@ -65,10 +59,23 @@
 						</div>
 					</section>
 					<section class="feature left">
-						<div class="image"><img src="images/pic04.jpg" alt="" /></div>
+						<div class="image projects-gallery">
+							<a href="images/projects/1.jpg" class="glightbox" data-gallery="gallery1">
+								<img src="images/projects/1.jpg" alt="image" />
+							</a>
+							<a href="images/projects/2.jpg" class="glightbox" data-gallery="gallery1"></a>
+							<a href="images/projects/3.jpg" class="glightbox" data-gallery="gallery1"></a>
+							<a href="images/projects/4.jpg" class="glightbox" data-gallery="gallery1"></a>
+							<a href="images/projects/5.jpg" class="glightbox" data-gallery="gallery1"></a>
+							<a href="images/projects/6.jpg" class="glightbox" data-gallery="gallery1"></a>
+							<a href="images/projects/7.jpg" class="glightbox" data-gallery="gallery1"></a>
+							<a href="images/projects/8.jpg" class="glightbox" data-gallery="gallery1"></a>
+							<a href="images/projects/9.jpg" class="glightbox" data-gallery="gallery1"></a>
+						</div>
 						<div class="content">
 							<h3>Projekty</h3>
-							<p><a href="https://www.instagram.com/michaldittmajer/">Poznaj zrealizowane przez nas projekty na <a href="https://www.instagram.com/michaldittmajer/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></a></p>
+							<p>Zachęcamy do obejrzenia zrealizowanych przez nas projektów klikając na zdjęcie.</p>
+							<p><a href="https://www.instagram.com/michaldittmajer/">Chcesz zobaczyć więcej? Zapraszamy na naszego instagrama <a href="https://www.instagram.com/michaldittmajer/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></a></p>
 						</div>
 					</section>
 
@@ -302,6 +309,15 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<link rel="stylesheet" href="assets/css/glightbox.min.css" />
+			<script src="assets/js/glightbox.min.js"></script>
+
+			<script type="text/javascript">
+				const lightbox = GLightbox({
+					touchNavigation: true,
+					loop: true
+				});
+			</script>
 
 	</body>
 </html>
