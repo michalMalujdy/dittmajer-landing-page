@@ -3362,6 +3362,41 @@ input, select, textarea {
 	content: inherit;
 }
 
+
+.fade-in-animation {
+	opacity: 0;
+	animation-name: fade-in;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+.position-animation {
+	transform: translateY(100%);
+	opacity: 0;
+}
+
+.slide-up-animation {
+	animation-name: slide-up;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes slide-up {
+	from { 
+		transform: translateY(100%); 
+		opacity: 0;
+	}
+	to {
+		 transform: translateY(0%);
+		 opacity: 1;
+	}
+}
+
 @media screen and (max-width: 1280px) {
 	.section-top {
 		padding-top: 4em;
