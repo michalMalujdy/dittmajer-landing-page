@@ -3392,7 +3392,7 @@ input, select, textarea {
 }
 
 .position-animation {
-	transform: translateY(100%);
+	transform: translateY(50%);
 	opacity: 0;
 }
 
